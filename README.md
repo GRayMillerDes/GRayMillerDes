@@ -1,7 +1,7 @@
 # Hi there, I'm Gary Miller 👋
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/graymillerdes"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <img src="https://img.shields.io/badge/Focus-Cloud_Native_%7C_DevOps_%7C_SRE-2563EB?style=for-the-badge" alt="Focus" />
   <img src="https://img.shields.io/badge/Kubernetes-Production--Ready-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
   <img src="https://img.shields.io/badge/Security-Zero--Trust-10B981?style=for-the-badge&logo=vault&logoColor=white" alt="Zero Trust" />
