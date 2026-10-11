@@ -1,52 +1,53 @@
-# Hi there, I'm Gary Miller 👋
+# Gary Miller
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/graymillerdes"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <img src="https://img.shields.io/badge/Focus-Cloud_Native_%7C_DevOps_%7C_SRE-2563EB?style=for-the-badge" alt="Focus" />
-  <img src="https://img.shields.io/badge/Kubernetes-Production--Ready-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-  <img src="https://img.shields.io/badge/Security-Zero--Trust-10B981?style=for-the-badge&logo=vault&logoColor=white" alt="Zero Trust" />
+<p align="left">
+  <a href="https://www.linkedin.com/in/graymillerdes"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <img src="https://img.shields.io/badge/Role-Senior_SRE_%26_Cloud_Architect-0f172a?style=flat-square" alt="Role" />
+  <img src="https://img.shields.io/badge/Kubernetes-Production-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/Zero--Trust-Architecture-059669?style=flat-square&logo=vault&logoColor=white" alt="Zero Trust" />
 </p>
 
----
-
-### 🚀 About Me
-Experienced **Senior SRE & Cloud Architect** specializing in multi-cloud enterprise architectures, GitOps continuous delivery, and Zero-Trust infrastructure automation. Passionate about building resilient, observable, and highly scalable cloud-native platforms.
-
-- 🔭 **Focus Areas**: Multi-Cloud Infrastructure (AWS / Azure / GCP / Bare-Metal), Kubernetes, GitOps, Service Mesh
-- 🛡️ **Zero-Trust & Security**: External Secrets Operator (ESO), HashiCorp Vault, OIDC, Immutable Delivery
-- 📊 **SRE & Observability**: SLI/SLO Engineering, Prometheus, Grafana, Thanos, Alertmanager
-- ⚡ **Infrastructure as Code**: Terraform, Terragrunt, Ansible, ArgoCD, Helm
+Senior Site Reliability Engineer & Cloud Architect specializing in enterprise multi-cloud infrastructure, declarative GitOps continuous delivery, and Zero-Trust identity frameworks. Designing and operating resilient, observable, and cost-efficient cloud-native platforms.
 
 ---
 
-### 🌟 Featured Open-Source Architectures
+### Core Focus Areas
+
+- **Multi-Cloud Infrastructure**: Production Kubernetes cluster lifecycle across AWS, Azure, GCP, and bare-metal environments.
+- **Zero-Trust Security**: Secret synchronization via External Secrets Operator (ESO), HashiCorp Vault, OIDC workload identity, and least-privilege automation.
+- **GitOps Continuous Delivery**: Declarative App-of-Apps management with ArgoCD, Helm, Kustomize, and immutable pipeline blueprints.
+- **Site Reliability & Observability**: SLI/SLO definition, proactive alerting with Prometheus/Alertmanager, Grafana telemetry, and non-interactive incident diagnostics.
+
+---
+
+### Featured Architectures
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">🛡️ <a href="https://github.com/GRayMillerDes/multicloud-cicd-zero-trust-architecture">Multi-Cloud CI/CD Zero-Trust Architecture</a></h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Architecture-Enterprise_Blueprint-blue?style=flat-square" />
-        <img src="https://img.shields.io/badge/Security-Zero--Trust_ESO-green?style=flat-square" />
+      <h3><a href="https://github.com/GRayMillerDes/multicloud-cicd-zero-trust-architecture">Multi-Cloud CI/CD Zero-Trust Architecture</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/Architecture-Enterprise_Blueprint-2563eb?style=flat-square" />
+        <img src="https://img.shields.io/badge/Security-Zero--Trust_ESO-059669?style=flat-square" />
       </p>
-      <p>Enterprise Multi-Cloud CI/CD blueprint implementing <b>Zero-Trust secret delivery (External Secrets Operator)</b>, immutable deployment pipelines with Packer & Terraform, and non-interactive SRE automated incident diagnostics.</p>
+      <p>Enterprise multi-cloud delivery blueprint implementing Zero-Trust secret distribution using the External Secrets Operator, immutable infrastructure deployments via Terraform and Packer, and automated SRE incident diagnostics.</p>
       <ul>
-        <li><b>Cloud Environments</b>: AWS, Azure, GCP & Hybrid Bare-Metal</li>
-        <li><b>CI/CD Engine</b>: CloudBees / Jenkins / GitHub Actions with OIDC</li>
-        <li><b>Secret Lifecycle</b>: Short-lived credentials, rotation, zero persistent tokens</li>
+        <li><strong>Infrastructure</strong>: AWS, Azure, GCP, and Hybrid On-Premises</li>
+        <li><strong>CI/CD Engine</strong>: CloudBees, Jenkins, and GitHub Actions with Workload Identity Federation</li>
+        <li><strong>Credential Lifecycle</strong>: Ephemeral tokens, automated secret rotation, zero static credentials</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">⚡ <a href="https://github.com/GRayMillerDes/hybrid-gitops-sre-lab">Hybrid GitOps SRE Lab</a></h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Platform-Kubernetes_v1.30+-blue?style=flat-square" />
-        <img src="https://img.shields.io/badge/GitOps-ArgoCD-orange?style=flat-square" />
+      <h3><a href="https://github.com/GRayMillerDes/hybrid-gitops-sre-lab">Hybrid GitOps SRE Lab</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/Platform-Kubernetes_v1.30+-2563eb?style=flat-square" />
+        <img src="https://img.shields.io/badge/GitOps-ArgoCD-ea580c?style=flat-square" />
       </p>
-      <p>A production-grade Kubernetes & GitOps sandbox demonstrating enterprise IaC patterns, ESO zero-trust synchronization across clouds, and end-to-end SRE observability suites.</p>
+      <p>A production-aligned local Kubernetes sandbox demonstrating enterprise Infrastructure as Code patterns, cross-cloud ESO zero-trust synchronization, and a full-stack SRE observability suite.</p>
       <ul>
-        <li><b>GitOps Stack</b>: ArgoCD Declarative App-of-Apps & Helm Charts</li>
-        <li><b>Observability</b>: Prometheus, Grafana dashboards, Alertmanager</li>
-        <li><b>Resilience</b>: Automated failover, health checks, SLO validation</li>
+        <li><strong>GitOps Strategy</strong>: Declarative ArgoCD App-of-Apps and standardized Helm charts</li>
+        <li><strong>Telemetry</strong>: Prometheus metric collection, Grafana operational dashboards, Alertmanager</li>
+        <li><strong>Resilience</strong>: Automated service reconciliation, health probes, and SLO validation</li>
       </ul>
     </td>
   </tr>
@@ -54,20 +55,20 @@ Experienced **Senior SRE & Cloud Architect** specializing in multi-cloud enterpr
 
 ---
 
-### 🛠️ Core Tech Stack & Tooling
+### Technical Competencies
 
-| Domain | Technologies & Tools |
+| Domain | Technologies & Tooling |
 | :--- | :--- |
-| **Cloud & Platform** | Kubernetes (EKS / AKS / GKE / Bare-Metal), Docker, Linux (Ubuntu/Debian) |
-| **GitOps & CI/CD** | ArgoCD, GitHub Actions, CloudBees / Jenkins, Helm, Kustomize |
+| **Cloud & Platforms** | Kubernetes (EKS / AKS / GKE / Bare-Metal), Docker, Linux (Ubuntu / Debian / RHEL) |
+| **GitOps & CI/CD** | ArgoCD, GitHub Actions, CloudBees, Jenkins, Helm, Kustomize |
 | **IaC & Automation** | Terraform, Terragrunt, Ansible, Packer |
-| **Security & Identity** | External Secrets Operator (ESO), HashiCorp Vault, OIDC, TLS/mTLS |
-| **Monitoring & SRE** | Prometheus, Grafana, Thanos, Alertmanager, OpenTelemetry |
-| **Networking & Mesh** | Istio, Cilium, WireGuard, Nginx Ingress, Cloudflare |
-| **Scripting & Code** | Python, Go, Bash, HCL, YAML |
+| **Security & Identity** | External Secrets Operator (ESO), HashiCorp Vault, OIDC, TLS / mTLS |
+| **SRE & Telemetry** | Prometheus, Grafana, Thanos, Alertmanager, OpenTelemetry |
+| **Networking & Mesh** | Istio, Cilium, WireGuard, Nginx Ingress Controller, Cloudflare |
+| **Languages & Tooling** | Python, Go, Bash, HCL, YAML |
 
 ---
 
 <p align="center">
-  <i>“Automate everything, verify continuously, design for failure.”</i>
+  <sub>“Automate everything, verify continuously, design for failure.”</sub>
 </p>
